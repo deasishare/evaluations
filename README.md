@@ -1,4 +1,4 @@
-Les réponses sont à saisir dans ce ["fichier"](evaluation.docx).
+Les réponses sont à saisir dans ce ["fichier"](https://github.com/deasishare/evaluations/raw/master/evaluation.docx).
 
 # Partie 1 - QCM - Base de données et langage SQL
 
