@@ -193,8 +193,8 @@ Les réponses sont à saisir dans le ["evaluation.docx"](https://github.com/deas
 Pour cet exercice, vous devrez utiliser mysql. Vous pouvez utiliser la version d'évaluation en ligne https://demo.phpmyadmin.net/. La plateforme de test doit vous permettre de mener les exercices ci-dessous.
 
 Il conviendra de télécharger les bases de données suivantes :
-- [Table de villes](table/villes.sql) (2000 enregistrements)
-- [Table des départements de France](table/departement.sql)
+- [Table de villes](https://github.com/deasishare/evaluations/blob/master/table/villes.sql) (2000 enregistrements)
+- [Table des départements de France](https://github.com/deasishare/evaluations/blob/master/table/departement.sql)
 
 Vous devrez pour chaque point suivant apporter uniquement la requête correspondant.
 
