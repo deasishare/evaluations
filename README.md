@@ -193,7 +193,7 @@ Pour cet exercice, vous devrez utiliser mysql. Vous pouvez utiliser la version d
 
 Il conviendra de télécharger les bases de données suivantes :
 - [Table de villes](table/villes.sql) (2000 enregistrements)
-- Table des départements de France
+- [Table des départements de France](table/departement.sql)
 
 Vous devrez pour chaque point suivant apporter uniquement la requête correspondant.
 
