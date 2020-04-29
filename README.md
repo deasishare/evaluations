@@ -1,4 +1,9 @@
-# Base de données et langage SQL
+# Partie 1 - QCM - Base de données et langage SQL
+
+ **Durée estimée :** 10 mins
+ 
+ **Compétence évaluée :** Gestion de base de données
+
 
 *Questionnaire à choix multiple. Veuillez choisir la ou les bonnes réponses.*
 
@@ -79,7 +84,11 @@
 - [ ] Une ou plusieurs propriétés permettent d'identifier de manière unique un objet
 - [ ] La dimension d'une relation est le nombre d'objets rentrant dans la relation
 
-# PHP: Hypertext Preprocessor, plus connu sous son sigle PHP (sigle auto-référentiel), est un langage de programmation libre
+# Partie n°2 - QCM - PHP (Hypertext Preprocessor)
+
+ **Durée estimée :** 10 mins
+ 
+ **Compétence évaluée :** Connaissance du langage PHP
 
 *Questionnaire à choix multiple. Veuillez choisir la ou les bonnes réponses.*
 
@@ -173,89 +182,93 @@
 - [x] .
 - [ ] &
 
-# SQL - Exercices pratiques
+# Partie n°3 - Exercices pratiques - Gestion de base de données
+
+ **Durée estimée :** 25 mins
+ 
+ **Compétence évaluée :** Gestion de base de données
+
 
 Pour cet exercice, vous devrez utiliser mysql. Vous pouvez utiliser la version d'évaluation en ligne https://demo.phpmyadmin.net/. La plateforme de test doit vous permettre de mener les exercices ci-dessous.
 
 Il conviendra de télécharger les bases de données suivantes :
-- Table de villes (limité à 5000 enregistrements)
+- Table de villes (2000 enregistrements)
 - Table des départements de France
 
 Vous devrez pour chaque point suivant apporter uniquement la requête correspondant.
 
 ### 1. Obtenir la liste des 10 villes les plus peuplées en 2012
 
-SELECT * 
+Requête "SELECT" :
+
+*SELECT * 
 FROM `villes_france_free` 
 ORDER BY `ville_population_2012` DESC 
-LIMIT 10
+LIMIT 10*
 
 ### 2. Obtenir la liste des 5 villes ayant la plus faible superficie
 
-SELECT * 
+Requête "SELECT" :
+
+*SELECT * 
 FROM `villes_france_free` 
 ORDER BY `ville_surface` ASC 
-LIMIT 5
-
-
+LIMIT 5*
 
 ### 3. Obtenir le nom des 2 villes les plus peuplées en 2012, ainsi que le nom du département associé
 
-SELECT * 
+Requête "SELECT" :
+
+*SELECT * 
 FROM `villes_france_free` 
 LEFT JOIN departement ON departement_code = ville_departement
 ORDER BY `ville_population_2012` DESC 
-LIMIT 2
+LIMIT 2*
 
 ### 5. Obtenir la liste du nom de chaque département, associé à son code et du nombre de commune au sein de ces département, en triant afin d’obtenir en priorité les départements qui possèdent le plus de communes
 
-SELECT departement_nom, ville_departement, COUNT(*) AS nbr_items 
+Requête "SELECT" :
+
+*SELECT departement_nom, ville_departement, COUNT(*) AS nbr_items 
 FROM `villes_france_free` 
 LEFT JOIN departement ON departement_code = ville_departement
 GROUP BY ville_departement
-ORDER BY `nbr_items` DESC
+ORDER BY `nbr_items` DESC*
 
 ### 6. Obtenir la liste des 10 plus grands départements, en termes de superficie
 
-SELECT departement_nom, ville_departement, SUM(`ville_surface`) AS dpt_surface 
+Requête "SELECT" :
+
+*SELECT departement_nom, ville_departement, SUM(`ville_surface`) AS dpt_surface 
 FROM `villes_france_free` 
 LEFT JOIN departement ON departement_code = ville_departement
 GROUP BY ville_departement  
 ORDER BY dpt_surface  DESC
-LIMIT 10
+LIMIT 10*
 
 
 ### 7. Compter le nombre de villes dont le nom commence par “Saint”
 
+Requête "SELECT" :
+*
 SELECT COUNT(*) 
 FROM `villes_france_free` 
-WHERE `ville_nom` LIKE 'saint%'
+WHERE `ville_nom` LIKE 'saint%'*
 
 
 ### 8. Obtenir en une seule requête SQL la liste des villes dont la superficie est supérieure à la superficie moyenne
 
-SELECT * 
+Requête "SELECT" :
+
+*SELECT * 
 FROM `villes_france_free` 
-WHERE `ville_surface` > (SELECT AVG(`ville_surface`) FROM `villes_france_free`)
+WHERE `ville_surface` > (SELECT AVG(`ville_surface`) FROM `villes_france_free`)*
 
-### 9. Obtenir la liste des départements qui possèdent plus de 2 millions d’habitants
 
-SELECT ville_departement, SUM(`ville_population_2012`) AS population_2012
-FROM `villes_france_free` 
-GROUP BY `ville_departement`
-HAVING population_2012 > 2000000
-ORDER BY population_2012 DESC
+### 09. Remplacer les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient les noms en majuscule)
 
-### 10. Remplacer les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient les noms en majuscule)
+Requête "UPDATE" :
 
-UPDATE `villes_france_free` 
+*UPDATE `villes_france_free` 
 SET ville_nom = REPLACE(ville_nom, '-', ' ') 
-WHERE `ville_nom` LIKE 'SAINT-%'
-
-
-
-
-
-
-
-
+WHERE `ville_nom` LIKE 'SAINT-%'*
