@@ -223,7 +223,7 @@ Requête "SELECT" :
 | :------------- |
 |       >        |
 
-### 5. Obtenir la liste du nom de chaque département, associé à son code et du nombre de commune au sein de ces départements, en triant afin d’obtenir en priorité les départements qui possèdent le plus de communes
+### 4. Obtenir la liste du nom de chaque département, associé à son code et du nombre de commune au sein de ces départements, en triant afin d’obtenir en priorité les départements qui possèdent le plus de communes
 
 Requête "SELECT" :
 
@@ -231,16 +231,7 @@ Requête "SELECT" :
 | :------------- |
 |       >        |
 
-### 6. Obtenir la liste des 10 plus grands départements, en termes de superficie
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-
-### 7. Compter le nombre de villes dont le nom commence par “Saint”
+### 5. Obtenir la liste des 10 plus grands départements, en termes de superficie
 
 Requête "SELECT" :
 
@@ -249,7 +240,7 @@ Requête "SELECT" :
 |       >        |
 
 
-### 8. Obtenir en une seule requête SQL la liste des villes dont la superficie est supérieure à la superficie moyenne
+### 6. Compter le nombre de villes dont le nom commence par “Saint”
 
 Requête "SELECT" :
 
@@ -258,7 +249,16 @@ Requête "SELECT" :
 |       >        |
 
 
-### 09. Remplacer les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient les noms en majuscule)
+### 7. Obtenir en une seule requête SQL la liste des villes dont la superficie est supérieure à la superficie moyenne
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+
+### 8. Remplacer les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient les noms en majuscule)
 
 Requête "UPDATE" :
 
