@@ -192,7 +192,7 @@
 Pour cet exercice, vous devrez utiliser mysql. Vous pouvez utiliser la version d'évaluation en ligne https://demo.phpmyadmin.net/. La plateforme de test doit vous permettre de mener les exercices ci-dessous.
 
 Il conviendra de télécharger les bases de données suivantes :
-- Table de villes (2000 enregistrements)
+- [Table de villes](table/villes.sql) (2000 enregistrements)
 - Table des départements de France
 
 Vous devrez pour chaque point suivant apporter uniquement la requête correspondant.
