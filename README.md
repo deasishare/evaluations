@@ -1,6 +1,92 @@
-Les réponses sont à saisir dans le ["evaluation.docx"](https://github.com/deasishare/evaluations/raw/master/evaluation.docx).
+Les réponses sont à saisir dans ce ["fichier"](evaluation.docx).
 
-# Partie 1 - QCM - Base de données et langage SQL
+
+# Partie n°1 - Exercices pratiques - Gestion de base de données
+
+ **Durée estimée :** 25 mins
+ 
+ **Compétence évaluée :** Gestion de base de données
+
+Pour cet exercice, vous devrez utiliser mysql. Vous pouvez utiliser la version d'évaluation en ligne https://demo.phpmyadmin.net/. La plateforme de test doit vous permettre de mener les exercices ci-dessous.
+
+Il conviendra de télécharger les bases de données suivantes :
+- [Table de villes](table/villes.sql) (2000 enregistrements)
+- [Table des départements de France](table/departement.sql)
+
+Vous devrez pour chaque point suivant apporter uniquement la requête correspondant.
+
+### 1. Obtenir la liste des 10 villes les plus peuplées en 2012
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+
+### 2. Obtenir la liste des 5 villes ayant la plus faible superficie
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+### 3. Obtenir le nom des 2 villes les plus peuplées en 2012, ainsi que le nom du département associé
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+### 5. Obtenir la liste du nom de chaque département, associé à son code et du nombre de commune au sein de ces départements, en triant afin d’obtenir en priorité les départements qui possèdent le plus de communes
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+### 6. Obtenir la liste des 10 plus grands départements, en termes de superficie
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+
+### 7. Compter le nombre de villes dont le nom commence par “Saint”
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+
+### 8. Obtenir en une seule requête SQL la liste des villes dont la superficie est supérieure à la superficie moyenne
+
+Requête "SELECT" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+
+### 09. Remplacer les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient les noms en majuscule)
+
+Requête "UPDATE" :
+
+| réponse        | 
+| :------------- |
+|       >        |
+
+
+
+
+# Partie 2 - QCM - Base de données et langage SQL
 
  **Durée estimée :** 10 mins
  
@@ -85,7 +171,7 @@ Les réponses sont à saisir dans le ["evaluation.docx"](https://github.com/deas
 - [ ] Une ou plusieurs propriétés permettent d'identifier de manière unique un objet
 - [ ] La dimension d'une relation est le nombre d'objets rentrant dans la relation
 
-# Partie n°2 - QCM - PHP (Hypertext Preprocessor)
+# Partie n°3 - QCM - PHP (Hypertext Preprocessor)
 
  **Durée estimée :** 10 mins
  
@@ -183,85 +269,8 @@ Les réponses sont à saisir dans le ["evaluation.docx"](https://github.com/deas
 - [ ] .
 - [ ] &
 
-# Partie n°3 - Exercices pratiques - Gestion de base de données
-
- **Durée estimée :** 25 mins
- 
- **Compétence évaluée :** Gestion de base de données
 
 
-Pour cet exercice, vous devrez utiliser mysql. Vous pouvez utiliser la version d'évaluation en ligne https://demo.phpmyadmin.net/. La plateforme de test doit vous permettre de mener les exercices ci-dessous.
-
-Il conviendra de télécharger les bases de données suivantes :
-- [Table de villes](https://github.com/deasishare/evaluations/blob/master/table/villes.sql) (2000 enregistrements)
-- [Table des départements de France](https://github.com/deasishare/evaluations/blob/master/table/departement.sql)
-
-Vous devrez pour chaque point suivant apporter uniquement la requête correspondant.
-
-### 1. Obtenir la liste des 10 villes les plus peuplées en 2012
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
 
 
-### 2. Obtenir la liste des 5 villes ayant la plus faible superficie
 
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-### 3. Obtenir le nom des 2 villes les plus peuplées en 2012, ainsi que le nom du département associé
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-### 4. Obtenir la liste du nom de chaque département, associé à son code et du nombre de commune au sein de ces départements, en triant afin d’obtenir en priorité les départements qui possèdent le plus de communes
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-### 5. Obtenir la liste des 10 plus grands départements, en termes de superficie
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-
-### 6. Compter le nombre de villes dont le nom commence par “Saint”
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-
-### 7. Obtenir en une seule requête SQL la liste des villes dont la superficie est supérieure à la superficie moyenne
-
-Requête "SELECT" :
-
-| réponse        | 
-| :------------- |
-|       >        |
-
-
-### 8. Remplacer les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient les noms en majuscule)
-
-Requête "UPDATE" :
-
-| réponse        | 
-| :------------- |
-|       >        |
