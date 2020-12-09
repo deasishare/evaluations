@@ -86,7 +86,7 @@ Requête "UPDATE" :
 
 
 
-# <span style="color:blue"> Partie 2 - QCM - Base de données et langage SQL</span>
+# Partie 2 - QCM - Base de données et langage SQL
 
  **Durée estimée :** 10 mins
  
